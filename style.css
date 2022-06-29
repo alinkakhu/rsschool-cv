@@ -1,0 +1,269 @@
+body {
+    min-width: 320px;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+}
+
+.container {
+
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    justify-content: center;
+
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+}
+
+.container-header {
+
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-link {
+    display: inline-block;
+    color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.logo {
+    color: #000000;
+    font-family: "Raleway",
+        sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.logo p {
+    padding: 10px;
+}
+
+.about {
+    background-color: lightblue;
+
+
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+
+.logo-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 40px;
+    margin-right: 40px;
+
+}
+
+.about h1 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.about p {
+
+    font-size: 28px;
+}
+
+.skills {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.skills-item,
+.lang-item {
+    font-weight: 700;
+    padding: 20px;
+    font-size: 24px;
+    color: gray;
+}
+
+.code-title {
+    margin-bottom: 20px;
+}
+
+.code {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: azure;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightblue;
+
+}
+
+.adress-item {
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.adress__link {
+    color: black;
+
+}
+
+.rsschool {
+    color: black;
+    fill: #000000;
+}
+
+.date {
+    font-size: 22px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.project-item {
+    margin-left: 40px;
+}
+
+.project {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card__title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Roboto';
+    margin-bottom: 4px;
+}
+
+.card__text {
+
+    font-weight: 400;
+    line-height: 1.88;
+}
+
+.project-link {
+    color: gray;
+}
+
+.project-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills-title,
+.lang-title {
+    padding: 20px;
+}
+
+.lang-item span {
+    font-weight: 800;
+}
+
+.education {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.education-p {
+    font-size: 18px;
+
+    padding-bottom: 10px;
+}
+
+.education-title {
+    color: white;
+    margin: 20px;
+    margin-left: 0;
+}
