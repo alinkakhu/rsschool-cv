@@ -49,6 +49,7 @@ I'm a beginner Frontend Developer. I did some projects by myself on github. I ma
 
 - Udemy courses
 - Coursera courses
+- GOIT courses
 - Internship in Volvo as Frontend Developer (6 months)
 
 ## English
