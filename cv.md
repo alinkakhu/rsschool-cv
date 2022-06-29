@@ -21,6 +21,7 @@ I'm a beginner Frontend Developer. I did some projects by myself on github. I ma
 - Git, GitHub
 - VS Code
 - Bootstrap
+- RWD
 
 ## Code example:
 
