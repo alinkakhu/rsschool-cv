@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-header">
+            <div class="main-info">
+                <img class="logo-img" src="photo.PNG" alt="Alina">
+                <div class="logo">
+                    <h2>Alina Khusnutdinova</h2>
+                    <p>Junior Frontend developer</p>
+                    <p>Wrocław</p>
+                </div>
+            </div>
+
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code example</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="about" id="about">
+            <div class="container container-about">
+
+                <div class="personal">
+                    <h1 class="about-title">About myself</h1>
+
+                    <p>I’m a beginner Frontend Developer. I did some projects by myself on github. I made internship as
+                        a frontend developer
+                        for 6 months where I gained experience working in team. I am trying to develop my skills
+                        everyday and to use it in
+                        projects. My goal is to expand my knowledge in Frontend development.</p>
+                    <h2 class="education-title">Education</h2>
+
+                    <p class="education-p"><strong>Adam Mickiewicz University in Poznan</strong></p>
+                    <p>Turkology</p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="skills" id="skills">
+            <div class="container skills-container">
+                <div class="tech">
+                    <h2 class="skills-title">Skills</h2>
+                    <ul class="skills-list">
+
+                        <li class="skills-item">
+                            HTML5, CSS3
+                        </li>
+
+                        <li class="skills-item">
+                            JavaScript Basics
+                        </li>
+                        <li class="skills-item">
+                            Git, GitHub
+                        </li>
+
+                        <li class="skills-item">
+                            Bootstrap
+                        </li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <h2 class="lang-title">Languages</h2>
+                    <ul class="lang-list">
+                        <li class="lang-item">English <span>B2</span></li>
+                        <li class="lang-item">Polish <span>C1</span></li>
+                        <li class="lang-item">Russian <span>C2</span></li>
+                        <li class="lang-item">Turkish <span>C1</span></li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="code" id="code">
+            <div class="container">
+                <h2 class="code-title">Code example</h2>
+                <div class="code-example">
+                    <pre><code>complete.addEventListener(‘click’, function(e){
+    
+    e.target.closest(‘li’).classList.add(‘done’) })
+    
+    del.addEventListener(‘click’,function(e){
+    
+    e.target.closest(‘li’).remove()
+    
+    const allTask = document.querySelectorAll(‘li’)
+    
+    if (allTask.length === 0){
+    
+    errorMes.textContent = ‘Nie masz zadań’
+    
+    }</code></pre>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="container">
+                <h2 class="project-title">Projects</h2>
+                <ul class="projects">
+                    <li class="project-item">
+                        <a href="https://alinkakhu.github.io/goit-markup-hw-08/" class="project-link">
+                            <div class="overlay-card">
+                                <picture>
+
+
+                                    <img class="projects-img" src="webstudio.PNG" alt="webstudio" height="300"
+                                        width="300" />
+                                </picture>
+
+                            </div>
+                            <div class="card">
+                                <h3 class="card__title">Webstudio</h3>
+                                <p class="card__text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item">
+                        <a href="https://alinkakhu.github.io/todo-list/" class="project-link">
+                            <div class="overlay-card">
+                                <picture>
+
+
+                                    <img class="projects-img" src="img1.png" alt="todolist" height="300"
+                                        width="300" />
+                                </picture>
+
+                            </div>
+                            <div class="card">
+                                <h3 class="card__title">Webstudio</h3>
+                                <p class="card__text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="project-item">
+                        <a href="https://alinkakhu.github.io/Calculator/" class="project-link">
+                            <div class="overlay-card">
+                                <picture>
+
+
+                                    <img class="projects-img" src="calc.png" alt="calculator" height="300"
+                                        width="300" />
+                                </picture>
+
+                            </div>
+                            <div class="card">
+                                <h3 class="card__title">Webstudio</h3>
+                                <p class="card__text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer id="contacts">
+        <div class="container footer-container">
+            <address class="adress">
+                <ul class="adress__list">
+
+
+                    <li class="adress-item"><a class="adress__link" href="mailto:info@example.com">Email:
+                            info@example.com</a>
+                    </li>
+                    <li class="adress-item"><a class="adress__link" href=''>Phone: +48 12345566</a></li>
+                    <li class="adress-item date">2022
+
+
+
+                    </li>
+
+                </ul>
+            </address>
+            <ul class="links">
+
+                <li class="adress-item"><a class="adress__link" href="https://github.com/alinkakhu"><img
+                            src="github.svg" alt="github" height="100" width="100"></a>
+                </li>
+                <li class="adress-item"><a class="adress__link" href="https://rs.school/js/">
+                        <img src="rs_school.svg" alt="rs_school" height="100" width="100"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
